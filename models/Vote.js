@@ -23,7 +23,7 @@ Vote.init(
             allowNull: false,
             references: {
                 model: 'post',
-                ley: 'id'
+                key: 'id'
             }
         }
     },
